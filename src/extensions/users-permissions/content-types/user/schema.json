@@ -68,6 +68,16 @@
     "balance": {
       "type": "float",
       "default": 0
+    },
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "profile_pic": {
+      "type": "string",
+      "regex": "        RegExp pattern: [(http(s)?):\\/\\/(www\\.)?a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&//=]*)"
     }
   }
 }

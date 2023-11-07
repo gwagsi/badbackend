@@ -616,6 +616,9 @@ export interface PluginUsersPermissionsUser extends Schema.CollectionType {
       'plugin::users-permissions.role'
     >;
     balance: Attribute.Float & Attribute.DefaultTo<0>;
+    first_name: Attribute.String;
+    last_name: Attribute.String;
+    profile_pic: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<
