@@ -18,7 +18,7 @@ module.exports = ({ env }) => ({
         },
       },
     },
-    mail: {
+    email: {
       config: {
         provider: 'strapi-provider-email-sendinblue',
         providerOptions: {
@@ -29,21 +29,5 @@ module.exports = ({ env }) => ({
         },
       },
     },
-    email: {
-      config: {
-        provider: 'nodemailer', // For community providers pass the full package name (e.g. provider: 'strapi-provider-email-mandrill')
-        providerOptions: {
-          host: "smtp-relay.brevo.com", 
-          port:   587 ,
-          auth: {
-            user:  'gwagsiglenn@gmail.com' ,
-            pass:  'wanfeyin' ,
-        },
-        settings: {
-          defaultFrom: 'nachass@nchhass.com',
-          defaultReplyTo: 'nachass@nchhass.com',
-          testAddress: 'nachass@nchhass.com',
-        },
-      },
-    },
-  }}) 
+     
+  }) 
