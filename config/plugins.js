@@ -32,7 +32,7 @@ module.exports = ({ env }) => ({
         settings: {
           defaultFrom: 'nachass@nchhass.com',
           defaultReplyTo: 'nachass@nchhass.com',
-          testAddress: 'nachass@nchhass.com',
+          testAddress: 'gwagsiglenn@gmail.com',
         },
       },
     },
