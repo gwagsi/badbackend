@@ -25,10 +25,13 @@ module.exports = ({ env }) => ({
         providerOptions: {
           host: "smtp-relay.brevo.com", 
           port:   587 ,
+          debug: true,
+          logger:true,
           auth: {
             user:  'gwagsiglenn@gmail.com' ,
             pass:  'Vy1Gc4MNnwb83kdY' ,
         },
+        tls:{rejectedUnauthorized:false},
         settings: {
           defaultFrom: 'nachass@nchhass.com',
           defaultReplyTo: 'nachass@nchhass.com',
