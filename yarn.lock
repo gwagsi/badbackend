@@ -6811,6 +6811,13 @@ node-machine-id@1.1.12, node-machine-id@^1.1.10:
   resolved "https://registry.yarnpkg.com/node-machine-id/-/node-machine-id-1.1.12.tgz#37904eee1e59b320bb9c5d6c0a59f3b469cb6267"
   integrity sha512-QNABxbrPa3qEIfrE6GOJ7BYIuignnJw7iQ2YPbc3Nla1HzRJjXzZOiikfF8m7eAMfichLt3M4VgLOetqgDmgGQ==
 
+node-mailer@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/node-mailer/-/node-mailer-0.1.1.tgz#609e14a9b2c34422540b3a66938163d1d2421500"
+  integrity sha512-L3YwTtPodsYr1sNPW/PxXw0rSOr/ldygaIph2YtXDwLGt9l8km/OjM0Wrr57Yf07JEEnDb3wApjhVdR0k5v0kw==
+  dependencies:
+    nodemailer ">= 0.1.15"
+
 node-plop@0.26.3, node-plop@^0.26.3:
   version "0.26.3"
   resolved "https://registry.yarnpkg.com/node-plop/-/node-plop-0.26.3.tgz#d6fa7e71393c8b940513ba8c4868f8aaa6dea9df"
@@ -6858,6 +6865,11 @@ nodemailer-shared@1.1.0:
   integrity sha512-68xW5LSyPWv8R0GLm6veAvm7E+XFXkVgvE3FW0FGxNMMZqMkPFeGDVALfR1DPdSfcoO36PnW7q5AAOgFImEZGg==
   dependencies:
     nodemailer-fetch "1.6.0"
+
+"nodemailer@>= 0.1.15":
+  version "6.9.7"
+  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.9.7.tgz#ec2f488f62ba1558e7b19239b62778df4a5c4397"
+  integrity sha512-rUtR77ksqex/eZRLmQ21LKVH5nAAsVicAtAYudK7JgwenEDZ0UIQ1adUGqErz7sMkWYxWTTU1aeP2Jga6WQyJw==
 
 noms@0.0.0:
   version "0.0.0"
