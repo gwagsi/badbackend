@@ -23,18 +23,18 @@ module.exports = ({ env }) => ({
       config: {
         provider: 'nodemailer', // For community providers pass the full package name (e.g. provider: 'strapi-provider-email-mandrill')
         providerOptions: {
-          host: "smtp-relay.brevo.com", 
+          host: "smtp.gmail.com", 
           port:   587 ,
           debug: true,
           logger:true,
           auth: {
-            user:  'gwagsiglenn@gmail.com' ,
-            pass:  'Vy1Gc4MNnwb83kdY' ,
+            user:  'vectorket@gmail.com' ,
+            pass:  'bwzk tsut wbxm gvqs' ,
         },
         tls:{rejectedUnauthorized:false},
         settings: {
-          defaultFrom: 'nachass@nchhass.com',
-          defaultReplyTo: 'nachass@nchhass.com',
+          defaultFrom: 'gwagsiglenn@gmail.com',
+          defaultReplyTo: 'gwagsiglenn@gmail.com',
           testAddress: 'gwagsiglenn@gmail.com',
         },
       },
