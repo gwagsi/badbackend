@@ -3,7 +3,8 @@ module.exports = [
   {
     name: 'strapi::security',
     config: {
-      contentSecurityPolicy: {
+      contentSecurityPolicy: 
+      {
         useDefaults: true,
         directives: {
           'connect-src': ["'self'", 'https:'],
